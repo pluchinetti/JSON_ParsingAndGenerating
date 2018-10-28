@@ -1,0 +1,14 @@
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\bin\Debug\netcoreapp2.1\Program.deps.json
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\bin\Debug\netcoreapp2.1\Program.runtimeconfig.json
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\bin\Debug\netcoreapp2.1\Program.runtimeconfig.dev.json
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\bin\Debug\netcoreapp2.1\Program.dll
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\bin\Debug\netcoreapp2.1\Program.pdb
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\bin\Debug\netcoreapp2.1\Library.dll
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\bin\Debug\netcoreapp2.1\Library.pdb
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\obj\Debug\netcoreapp2.1\Program.csprojAssemblyReference.cache
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\obj\Debug\netcoreapp2.1\Program.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\obj\Debug\netcoreapp2.1\Program.AssemblyInfoInputs.cache
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\obj\Debug\netcoreapp2.1\Program.AssemblyInfo.cs
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\obj\Debug\netcoreapp2.1\Program.csproj.CopyComplete
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\obj\Debug\netcoreapp2.1\Program.dll
+D:\OneDrive\Documents\UCU\2018\Programación 2\Repositories\JSON_ParsingAndGenerating\Program\obj\Debug\netcoreapp2.1\Program.pdb
