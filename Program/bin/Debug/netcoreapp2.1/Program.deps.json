@@ -24,6 +24,9 @@
         }
       },
       "Library/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
         "runtime": {
           "Library.dll": {}
         }

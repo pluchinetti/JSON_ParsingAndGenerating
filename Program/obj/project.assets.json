@@ -220,6 +220,9 @@
       "Library/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
         "compile": {
           "bin/placeholder/Library.dll": {}
         },
@@ -741,11 +744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Program\\Program.csproj",
+      "projectUniqueName": "D:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "d:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Program\\Program.csproj",
+      "projectPath": "D:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Program\\Program.csproj",
       "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "d:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Program\\obj\\",
+      "outputPath": "D:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -762,8 +765,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "d:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Library\\Library.csproj": {
-              "projectPath": "d:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Library\\Library.csproj"
+            "D:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Library\\Library.csproj": {
+              "projectPath": "D:\\OneDrive\\Documents\\UCU\\2018\\Programación 2\\Repositories\\JSON_ParsingAndGenerating\\Library\\Library.csproj"
             }
           }
         }

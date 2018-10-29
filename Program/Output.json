@@ -1,92 +1,92 @@
 [
-    {
-        "Features": [
-            {
-                "Title": "ISOFIX",
-                "Status": true
-            },
-            {
-                "Title": "ABS",
-                "Status": true
-            },
-            {
-                "Title": "Laser Headlights",
-                "Status": false
-            },
-            {
-                "Title": "LED DRL",
-                "Status": true
-            },
-            {
-                "Title": "Assisted Driving",
-                "Status": true
-            }
-        ],
-        "Doors": 2,
-        "NCAPCompliant": true,
-        "Make": "Audi",
-        "Model": "A1",
-        "Year": 2018,
-        "Seats": 4
-    },
-    {
-        "Features": [
-            {
-                "Title": "ISOFIX",
-                "Status": true
-            },
-            {
-                "Title": "ABS",
-                "Status": true
-            },
-            {
-                "Title": "Laser Headlights",
-                "Status": false
-            },
-            {
-                "Title": "LED DRL",
-                "Status": true
-            },
-            {
-                "Title": "Assisted Driving",
-                "Status": false
-            }
-        ],
-        "Doors": 4,
-        "NCAPCompliant": true,
-        "Make": "Suzuki",
-        "Model": "Baleno",
-        "Year": 2018,
-        "Seats": 4
-    },
-    {
-        "Features": [
-            {
-                "Title": "ISOFIX",
-                "Status": true
-            },
-            {
-                "Title": "ABS",
-                "Status": true
-            },
-            {
-                "Title": "Laser Headlights",
-                "Status": false
-            },
-            {
-                "Title": "LED DRL",
-                "Status": false
-            },
-            {
-                "Title": "Assisted Driving",
-                "Status": false
-            }
-        ],
-        "Doors": 4,
-        "NCAPCompliant": true,
-        "Make": "Volkswagen",
-        "Model": "Up",
-        "Year": 2016,
-        "Seats": 4
-    }
+  {
+    "Doors": 2,
+    "NCAPCompliant": true,
+    "Make": "Audi",
+    "Model": "A1",
+    "Year": 2018,
+    "Seats": 4,
+    "Features": [
+      {
+        "Title": "ISOFIX",
+        "Status": true
+      },
+      {
+        "Title": "ABS",
+        "Status": true
+      },
+      {
+        "Title": "Laser Headlights",
+        "Status": false
+      },
+      {
+        "Title": "LED DRL",
+        "Status": true
+      },
+      {
+        "Title": "Assisted Driving",
+        "Status": true
+      }
+    ]
+  },
+  {
+    "Doors": 4,
+    "NCAPCompliant": true,
+    "Make": "Suzuki",
+    "Model": "Baleno",
+    "Year": 2018,
+    "Seats": 4,
+    "Features": [
+      {
+        "Title": "ISOFIX",
+        "Status": true
+      },
+      {
+        "Title": "ABS",
+        "Status": true
+      },
+      {
+        "Title": "Laser Headlights",
+        "Status": false
+      },
+      {
+        "Title": "LED DRL",
+        "Status": true
+      },
+      {
+        "Title": "Assisted Driving",
+        "Status": false
+      }
+    ]
+  },
+  {
+    "Doors": 4,
+    "NCAPCompliant": true,
+    "Make": "Volkswagen",
+    "Model": "Up",
+    "Year": 2016,
+    "Seats": 4,
+    "Features": [
+      {
+        "Title": "ISOFIX",
+        "Status": true
+      },
+      {
+        "Title": "ABS",
+        "Status": true
+      },
+      {
+        "Title": "Laser Headlights",
+        "Status": false
+      },
+      {
+        "Title": "LED DRL",
+        "Status": false
+      },
+      {
+        "Title": "Assisted Driving",
+        "Status": false
+      }
+    ]
+  }
 ]

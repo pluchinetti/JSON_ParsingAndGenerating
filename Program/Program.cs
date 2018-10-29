@@ -22,7 +22,7 @@ namespace Program
             Console.WriteLine("Marca: {0} | Modelo: {1} | Año: {2} | Seats: {3}", garage[0].Make , garage[0].Model, garage[0].Year, garage[0].Seats);
             Console.WriteLine("Doors: {0} | Aprobación NCAP: {1}", garage[0].Doors , garage[0].NCAPCompliant);
         
-            string outputJSON = JsonConvert.SerializeObject(garage);
+            string outputJSON = JsonConvert.SerializeObject(garage, Formatting.Indented);
             File.WriteAllText("Output.json", outputJSON);
         }
 
