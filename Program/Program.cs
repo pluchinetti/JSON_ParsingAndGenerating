@@ -15,15 +15,27 @@ namespace Program
     {
         static void Main(string[] args)
         {
+            // =====================================================================================================================
+            //                                            GUARDADO DE DATOS EN JSON
             List<CompactCar> garage = InitializeGarage();
 
             Console.WriteLine("Cantidad de vehículos: " + garage.Count);
 
-            Console.WriteLine("Marca: {0} | Modelo: {1} | Año: {2} | Seats: {3}", garage[0].Make , garage[0].Model, garage[0].Year, garage[0].Seats);
-            Console.WriteLine("Doors: {0} | Aprobación NCAP: {1}", garage[0].Doors , garage[0].NCAPCompliant);
+            foreach (CompactCar car in garage) 
+                PrintCarData(car);
         
             string outputJSON = JsonConvert.SerializeObject(garage, Formatting.Indented);
             File.WriteAllText("Output.json", outputJSON);
+            
+            // =====================================================================================================================
+            //                                           LECTURA DE DATOS DESDE JSON
+            Console.WriteLine("Reading data.json");
+            string jsonSTRING = File.ReadAllText("Output.json");
+            List<CompactCar> garage2 = JsonConvert.DeserializeObject<List<CompactCar>>(jsonSTRING);
+            Console.WriteLine("Cantidad de vehículos: " + garage2.Count);
+
+            foreach (CompactCar car in garage2) 
+                PrintCarData(car);
         }
 
         public static List<CompactCar> InitializeGarage()
@@ -86,9 +98,14 @@ namespace Program
             r8.Features.Add(new Feature("Hard Roof",true));
             garage.Add(r8); */
 
-
-
             return garage;
         }
+        public static void PrintCarData(CompactCar car)
+        {
+            Console.WriteLine("Marca: {0} | Modelo: {1} | Año: {2} | Seats: {3}", car.Make , car.Model, car.Year, car.Seats);
+            Console.WriteLine("Doors: {0} | Aprobación NCAP: {1}", car.Doors , car.NCAPCompliant);
+        }
+
+
     }
 }
